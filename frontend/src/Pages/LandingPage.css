@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-page {
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+  }
+  
+  .navbar-links .btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .navbar-links .btn:hover {
+    background-color: #c44516;
+  }
+  
+  /* Middle Section */
+  .middle-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .middle-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .middle-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .find-mechanic input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .find-mechanic .find-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .find-mechanic .find-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .testimonials h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+  }
+  
+  .testimonial-card p {
+    font-size: 16px;
+  }
+  
+  .testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
